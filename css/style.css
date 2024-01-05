@@ -1,0 +1,45 @@
+*{
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+a:hover{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+.body{
+    background-image: url(../imgaes/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-size: cover;
+height: 100vh;
+background-repeat: no-repeat;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.contant{
+    width: 500px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+.login,
+.sign{
+    padding: 10px;
+}
+input{
+    margin: 10px 0;
+}
+#xx:hover{
+    text-decoration: none;
+    border: none;
+    color: white;
+}
